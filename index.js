@@ -54,10 +54,10 @@ async function fetchPage() {
         if ($('body').text().includes('ازدحام')) {
             $('body').append(`
                 <script>
-                    console.log("ازدحام في الموقع، سيتم التحديث بعد 5 ثوانٍ");
+                    console.log("ازدحام في الموقع، سيتم التحديث بعد 1/1000 ثوانٍ");
                 </script>
             `);
-            console.log('ازدحام في الموقع، سيتم التحديث بعد 5 ثوانٍ');
+            console.log('ازدحام في الموقع، سيتم التحديث بعد 1/1000 ثوانٍ');
             setTimeout(fetchPage, 1);
         } else {
               sound.play(filePath,volume);
