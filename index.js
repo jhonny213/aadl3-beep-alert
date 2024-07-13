@@ -67,7 +67,7 @@ async function fetchPage() {
                 </script>
             `);
             console.log('تم جلب الصفحة بنجاح');
-            alert('تم جلب الصفحة بنجاح');
+           
         }
 
     } catch (error) {
